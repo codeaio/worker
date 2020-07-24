@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+/__pycache__
+
+# fetched codes while testing
+/code
+/codes
+
+# executable
+a.out
