@@ -3,7 +3,7 @@ import os
 import subprocess
 import time
 
-API = 'http://localhost:3000/task'
+API = 'http://localhost:9000/task'
 
 while True:
     r = requests.get(API + '/assign')
