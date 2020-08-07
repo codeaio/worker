@@ -3,7 +3,7 @@ import os
 import subprocess
 import time
 
-API = 'https://stormy-inlet-61516.herokuapp.com/task'
+API = 'http://localhost:3000/task'
 
 while True:
     r = requests.get(API + '/assign')
